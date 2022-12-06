@@ -1,0 +1,64 @@
+{
+    "sites": [{
+    "Name": "FaceBook",
+    "Founders": "Mark Zuckerberg,Educardo Savean",
+    "LaunchedYear": 2004,
+    "NoofUsers": 2.9,
+    "Revenue":85.96,
+    "HeadQuarters":"Menlo Park,CA",
+    "url":"https://www.facebook.com/",
+    "Rank":1
+  
+  },
+  {
+    "Name": "YouTube",
+    "Founders": "Chad Hurley,Steve Chen",
+    "LaunchedYear": 2005,
+    "NoofUsers": 2.2,
+    "Revenue":28.8,
+    "HeadQuarters":"San Brono,CA",
+    "url":"https://www.youtube.com/",
+    "Rank":2
+  },
+  {
+    "Name": "WhatsApp",
+    "Founders": "Jan Loum",
+    "LaunchedYear": 2009,
+    "NoofUsers": 2,
+    "Revenue":5.5,
+    "HeadQuarters":"Menlo Park,CA",
+    "url":"https://www.whatsapp.com/",
+    "Rank":3
+  },
+  {
+    "Name": "Instagram",
+    "Founders": "Kevin Systrom,Mike Kregar",
+    "LaunchedYear": 2010,
+    "NoofUsers": 2,
+    "Revenue":24,
+    "HeadQuarters":"Menlo Park,CA",
+    "url":"https://www.instagram.com/",
+    "Rank":4
+  },
+  {
+    "Name": "TikTok",
+    "Founders": "Zhang Ximing",
+    "LaunchedYear": 2016,
+    "NoofUsers": 1,
+    "Revenue":11,
+    "HeadQuarters":"Culver City,CA",
+    "url":"https://www.tiktok.com/",
+    "Rank":5
+  },
+  {
+    "Name": "SnapChat",
+    "Founders": "Evan Spiegel",
+    "LaunchedYear": 2011,
+    "NoofUsers": 0.538,
+    "Revenue":1.06,
+    "HeadQuarters":"Los Angeles,CA",
+    "url":"https://www.snapchat.com/en-GB",
+    "Rank":6
+  }]
+  
+  }

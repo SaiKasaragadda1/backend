@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+       <div class="container" id="con">
+            <nav>
+                    <div class="book"id="boo">
+                        <a href="#about">Home</a>
+                        <a href="#education">Education</a>
+                        <a href="#project">Projects</a>
+                        <a href="#experience">Experience</a>
+                        <a href="#achievements"></i>Achievements</a>
+                        <a href="#blogs">Blog</a>
+                        <a href="#blogs">Contact</a>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars" style="font-size:30px;"></i>
+                        </a>
+                    </div>
+            </nav>
+            <main>
+                <h1 style="text-align: center;"><br><article> SAI PAVAN KUMAR KASARAGADDA</article></h1>
+                <p>
+                    I am Sai Pavan Kumar Kasaragadda from India, Currently pursuing Master's in Computer Science at University of New Haven. 
+                    This is my 2nd semester. I did my Bachelors in Computer Science with 8.6 CGPA. After that i was interested to do masters
+                    and came immediately. I want to become a full stack developer after completion of my master's.
+                        <br>Age:23
+                        <p>Email:saikasaragadda222@gmail.com</p>
+                        <p>Position:Student in UNH</p>
+                        <p>Address: New Haven,Connecticut,06519</p>
+                        
+                </p>
+            </main>
+            <div class="image1" id="about">  
+                <img src="https://ufv.ca/media/assets/programs/facebook/computer-skills-facebook.jpg" style="max-width:100%;height:auto;" >
+                <div id="one"><p>skasa5@unh.newhaven.edu</p></div>
+            </div>
+            <div class="education" id="education"><i class="fa fa-graduation-cap" style="font-size: 50px;"></i>
+                <h2>EDUCATION</h2>
+                <p><h4>2021-present:Doing Masters in Computer Science at University Of New Haven</h4>
+                (course work:DataBase ,Java Programming,Python,web development and Computer security)
+                </p>
+                <h4>2017-2021:Completed Bachelor's in CS with 8.5cgpa</h4>
+                <p>(Course work:Basics of programming lamguages and wed development basics.</p>
+            </div>
+            <div class="project" id="project">
+                <h2>PROJECTS</h2>
+                <p>TITLE:Vehicle Detection in Traffic Sureveillance system</p>
+                   <p>TECHNOLOGY:   Machine Learning</p>
+                <p>Description: Traffic congestion is the main problem now a days,so we implemented a camera based 
+                    system that will assign time for the signal based on the number of vehicles present there using
+                    haar cascade classifier. So that the waiting time for the vehicles present there should be less
+                    than present system.
+                </p>
+            </div>
+            <div class="experience" id="experience"><i class="fa fa-briefcase"></i>
+                <h2>EXPERIENCE</h2>
+                <ul>
+                    <li> After completion of my Bachelors i got job
+                      in Cognizant Technology Solutions as a Programmer analyst Trainee with 4.2 LPA per Annum.</li>
+                      <li>I did the job for only one month and i resigned and come to USA to pursue masters in computer science.</li>
+                      <li>Java,Python,C,html, css and Database Sql.
+            </div>
+            <div class="achievements" id="achievements">
+                <h2>ACHIEVEMENTS</h2>
+                <ol>
+                    <li>Done workshops on Internet Of Things.</li>
+                    <li>Completed National cadet corps   (NCC)</li>
+                    <li>selected as regional best player in Kho-Kho game.</li>
+                    <li>Got 2nd prize in 24 hours hackathon on machine learning.</li>
+
+                </ol>
+            </div>
+            <div class="blogs" id="blogs">
+                <h2>BLOGS</h2>
+                <ul>
+                    <li>I did not written any articles up to now.</li>
+                    <li>I would like to write an article on data structure in future 
+                        Because arranging data in a particular order will save the time</li>
+                </ul>
+            </div>
+            <footer>
+                <p><b>Social Media:</b><br>
+                    <a href="https://www.linkedin.com/in/sai-kasaragadda-935b771b9"><i class='fa fa-linkedin' style="font-size: 30px;"></i>Linkedin</a>
+                    <a class="a2" href="https://www.facebook.com/sai.kasaragadda"><i class='fa fa-facebook' style="font-size: 30px;"></i>Facebook</a>
+                    <a class="a2" href="https://www.instagram.com/"><i class='fa fa-instagram' style="font-size: 30px;"></i>Instagram</a>
+                    <a class="a2" href="https://twitter.com/saikasaragadda5?t=qj_yyvd4tseoF7t5lm_2hw&s=08"><i class='fa fa-twitter' style="font-size: 30px;"></i>Twitter</a>
+                   
+                </p>
+            </footer>
+       </div>
+       <script>
+        function myFunction() {
+          var x = document.getElementById("boo");
+          if (x.className === "book") {
+            x.className += " responsive";
+          } else {
+            x.className = "book";
+          }
+        }
+        </script>
+        <style>
+            :root{
+    --main-radius:5px;
+    --main-padding:5px;
+    --white:white;
+    --yellowish:yellow;
+}
+.container{
+    height: 200vh;
+    font-weight:200;
+    font-size:1em;
+    display: grid;
+    width: 100%;
+    grid-template-rows: 0.8fr 2fr 2fr 2fr 0.8fr;
+    grid-template-columns: 0.4fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "nav nav nav nav"
+    "main main image1 image1"
+    "education education project project"
+    "experience experience achievements blogs"
+    "footer footer footer footer";
+    gap: 10px;
+}
+#one{
+    text-align: center;
+}
+nav{
+    background: rgb(250, 244, 250);
+    grid-area: nav;
+    padding: 20px;
+}
+nav a{
+    margin: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0,0,0,0.22);
+    padding: 14px 16px;
+}
+nav a:hover {
+    background-color:rgb(252, 249, 249);
+    border-right: 2px solid rgb(48, 232, 38);
+}
+main{
+    background: #dee6f0;
+    padding:var(--yellowish);
+    grid-area: main;
+    text-align: center;
+}
+.image1{
+    background-color:rgb(130, 228, 248);
+    grid-area: image1;
+}
+.book .icon {
+    display: none;
+}
+
+.education{
+    background:#f7f7e6;
+    border-radius: var(--main-radius);
+    grid-area: education;
+    text-align: center;
+    padding: 10px;
+}
+.project{
+    background:#f7f7e6;
+    border-radius: var(--main-radius);
+    grid-area: project;
+    text-align: center;
+    padding: 30px;
+}
+.experience{
+    background:#eeeeee;
+    border-radius: var(--main-radius);
+    grid-area: experience;
+    text-align: center;
+    padding: 40px;
+}
+.achievements{
+    background:#eeeeee;
+    border-radius: var(--main-radius);
+    grid-area: achievements;
+    text-align: center;
+    padding: 40px;
+}
+.blogs{
+    background:#eeeeee;
+    border-radius: var(--main-radius);
+    grid-area: blogs;
+    text-align: center;
+    padding: 40px;
+}
+footer{
+    background:pink;
+    border-radius: var(--main-radius);
+    grid-area: footer;
+    text-align: center;
+}
+.fa {
+    padding: 0.1rem;
+    background-color: #0eac99;
+    color:white;
+    border-radius: 20%;
+    width: calc(1.6rem + 2rem);
+    height: calc(0.5rem + 2rem);
+    font-size: 2.8rem;
+}
+.a2{
+    margin: 10px;
+}
+a:hover{
+    color:red;
+}
+@media only screen and (max-width: 500px){
+    .container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.4fr 2.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 0.4fr;
+        grid-template-areas: 
+        "nav"
+        "book"
+        "image1"
+        "main"
+        "education"
+        "project"
+        "experience"
+        "achievements"
+        "blogs"
+        "footer";
+        
+        gap:0.2em;
+
+    }
+    nav{
+        position: fixed;
+    }
+    .book a:not(:first-child) {
+        display:none;
+    }
+    .book a.icon {
+        display:inline;
+
+    }
+    .book.responsive {
+        position: relative;
+        background-color: white;
+    }
+    .book.responsive .icon {
+        position: relative;
+    }
+    .book.responsive a{
+        display: block;
+        text-align: right;
+        right: 0;
+    }
+
+}
+        </style>
+    </body>
+</html>
